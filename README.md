@@ -27,7 +27,7 @@ AI-Chatbot/
 ## ⚙️ Installation
 Clone this repository:
 ```bash
-git clone https://github.com/your-username/AI-Chatbot.git
+git clone https://github.com/your-username/Mini-Chatbot.git
 cd AI-Chatbot
 ```
 
