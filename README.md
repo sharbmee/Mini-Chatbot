@@ -14,10 +14,72 @@ The chatbot uses a training dataset (`intents.json`) that contains predefined pa
 ---
 
 ## 📂 Project Structure
+```
 AI-Chatbot/
-│── intents.json # Training data for chatbot (intents, patterns, responses)
-│── training.py # Script to train the chatbot model
-│── chatbot.py # Main file to run the chatbot
-│── README.md # Project documentation
-Copy
-Edit
+│── intents.json       # Training data for chatbot (intents, patterns, responses)
+│── training.py        # Script to train the chatbot model
+│── chatbot.py         # Main file to run the chatbot
+│── README.md          # Project documentation
+```
+
+---
+
+## ⚙️ Installation
+Clone this repository:
+```bash
+git clone https://github.com/your-username/AI-Chatbot.git
+cd AI-Chatbot
+```
+
+Install dependencies:
+```bash
+pip install tensorflow nltk numpy
+```
+
+Download NLTK data (only once):
+```python
+import nltk
+nltk.download('punkt')
+```
+
+---
+
+## ▶️ Usage
+1. Train the model:
+   ```bash
+   python training.py
+   ```
+
+2. Run the chatbot:
+   ```bash
+   python chatbot.py
+   ```
+
+---
+
+## 📌 Example Intents
+```json
+{
+  "tag": "greetings",
+  "patterns": ["hello", "hi", "hey", "namaste", "salaam"],
+  "responses": ["Hello!", "Hi there 👋", "Hey! How can I help you?"]
+}
+```
+
+---
+
+## 🚀 Future Improvements
+- Add more intents for broader conversation coverage.
+- Create a web-based interface (Flask/Django + React).
+- Integrate with APIs (Weather, News, Wikipedia, etc.).
+- Deploy on cloud platforms (Heroku, Vercel, etc.).
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+
+---
+
+## 📝 License
+This project is licensed under the **MIT License** – free to use and modify.
