@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "namaste", "salaam", "what's up", "yo", "howdy"],
+      "responses": ["Hello!", "Hey there 👋", "Hi, how are you doing?", "Good to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "see ya", "later", "talk to you soon"],
+      "responses": ["Goodbye!", "See you soon 👋", "Take care!", "Bye, have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thanks a lot", "thx", "thank you so much", "cheers", "much appreciated"],
+      "responses": ["You're welcome 😊", "No problem!", "Anytime!", "Happy to help!"]
+    },
+    {
+      "tag": "feeling_good",
+      "patterns": ["i'm good", "i'm fine", "doing well", "i'm great", "all good", "feeling happy", "i'm okay"],
+      "responses": ["Glad to hear that! 😄", "That's awesome!", "Good to know you're doing well."]
+    },
+    {
+      "tag": "feeling_bad",
+      "patterns": ["i'm sad", "not good", "feeling down", "i'm upset", "bad day", "i feel lonely"],
+      "responses": ["I'm here for you 💙", "Sorry to hear that. Want to talk about it?", "Hope things get better soon."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?", "who are you?", "tell me your name", "introduce yourself"],
+      "responses": ["I’m your AI assistant 🤖", "You can call me Chatbot.", "I’m here to help you with anything!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you?", "what is your age?", "when were you born?"],
+      "responses": ["I don’t age like humans 😅", "I’m timeless!", "I was created not long ago."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather today?", "how's the weather?", "is it sunny?", "is it raining?", "tell me today's weather"],
+      "responses": ["I can’t see outside 🌦️, but you can check your weather app!", "It depends on where you are—want me to check?"]
+    },
+    {
+      "tag": "food",
+      "patterns": ["i'm hungry", "let's eat", "what should i eat?", "i want pizza", "i feel like having pasta", "any food suggestions?"],
+      "responses": ["How about some pizza? 🍕", "Maybe some pasta?", "Try something healthy today 🥗"]
+    },
+    {
+      "tag": "study",
+      "patterns": ["i have to study", "help me with my homework", "explain this topic", "how to focus on study?", "study tips"],
+      "responses": ["Make a study plan 📚", "Take short breaks to stay focused.", "I can help explain—what subject?"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+      "responses": ["Why don’t skeletons fight? They don’t have the guts. 😆", "I tried to catch fog yesterday… Mist!"]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["i want to travel", "best places to visit?", "recommend a trip", "holiday ideas", "where should i go on vacation?"],
+      "responses": ["How about the mountains? 🏔️", "Beach vacation sounds nice 🏖️", "Explore a new city nearby!"]
+    },
+    {
+      "tag": "work",
+      "patterns": ["i have too much work", "busy at office", "i hate my job", "work is stressful", "help me with work"],
+      "responses": ["Don’t stress out—take breaks 🧘", "You’re doing your best 💪", "Want me to suggest productivity tips?"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it?", "tell me the time", "current time please"],
+      "responses": ["I don’t wear a watch ⌚, but your device does!", "Check the clock—time flies fast!"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play some music", "recommend me a song", "i want to listen to music"],
+      "responses": ["How about some relaxing lo-fi? 🎶", "Pop music always works!", "Want me to suggest a playlist?"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "i need motivation", "say something inspiring", "boost me up"],
+      "responses": ["You got this! 💪", "Every day is a new chance 🌟", "Don’t give up, you’re closer than you think."]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["what are your hobbies?", "what do you do for fun?", "tell me your favorite hobby"],
+      "responses": ["I love chatting with you 😄", "Helping people is my hobby.", "Learning new things every day!"]
+    },
+    {
+      "tag": "health",
+      "patterns": ["i'm sick", "i feel unwell", "i have a fever", "not feeling well"],
+      "responses": ["Please take some rest 🛌", "Stay hydrated 💧", "If it’s serious, consult a doctor."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["do you like football?", "tell me about cricket", "who won the match?", "sports news please"],
+      "responses": ["Football is exciting! ⚽", "Cricket is loved worldwide 🏏", "Which sport are you interested in?"]
+    }
+  ]
+}
